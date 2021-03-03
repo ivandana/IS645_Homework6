@@ -12,5 +12,10 @@ for (let i = 1; i <= 12; i++) {
     tableElement.appendChild(trElement);
 };
 
-const divElement = document.getElementById("output");
+const table = document.getElementById("table")
+table.style.borderStyle = "double";
+table.style.borderColor = "black";
+table.style.textAlign = "center"
+
+const divElement = document.getElementById("table");
 divElement.appendChild(tableElement);
