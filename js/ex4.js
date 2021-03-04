@@ -19,5 +19,5 @@ for (let i = 1; i <= 12; i++) {
     tableElement.appendChild(trElement);
 };
 
-const divElement = document.getElementById("table");
+const divElement = document.getElementById("output");
 divElement.appendChild(tableElement);
